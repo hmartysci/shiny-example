@@ -1,7 +1,7 @@
 library(shiny)
 
 #' Creates a new tab for a navlistPanel.
-#' 
+#'
 #' Creates a new tab displaying a bar graph for a dataset. The tab has a
 #' selectInput for selecting one of the attributes in the attributes vector
 #' parameter. The selected attribute is the categorical variable according to
