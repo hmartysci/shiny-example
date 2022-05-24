@@ -1,7 +1,7 @@
 library(tidyverse)
 
 #' Creates a bar graph using geom_bar().
-#' 
+#'
 #' Creates a bar graph categorizing the data in a data.frame based on an R
 #' dataset according to values of the categorical variable named attribute,
 #' where the height of each bar represents the amount of data in each category.
@@ -27,7 +27,7 @@ create_geom_bar_chart <- function(attribute, data, entity) {
 }
 
 #' Creates a bar graph using geom_col().
-#' 
+#'
 #' Creates a bar graph categorizing the data in a data.frame based on an R
 #' dataset according to values of the categorical variable named attribute,
 #' where the height of each bar is a value in the data.frame.
