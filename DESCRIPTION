@@ -1,0 +1,16 @@
+Package: mypackage
+Title: Shiny Example
+Version: 0.0.0.9000
+Authors@R: 
+    person("Subhasis", "Chakraborti", , "subhasis.chakraborti@mail.utoronto.ca",
+    role = c("aut", "cre"))
+Description: A small Shiny app demonstrating what I have learned about Shiny so
+    far. The app consists of three tabs, each of which displays a bar graph
+    based on a dataset from R’s datasets package. On each tab, a select input is
+    used to choose an attribute, which becomes the categorical variable
+    according to which data from the dataset is categorized to plot the bar
+    graph.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
