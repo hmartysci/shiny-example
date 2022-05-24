@@ -1,0 +1,62 @@
+{
+  "input": {
+    "select1": "Eye",
+    "select2": "Division",
+    "select3": "Admission Status"
+  },
+  "output": {
+    "plot1": {
+      "src": "[image data sha1: 183db9b08383ae3417064c96eea67b54958cc5c5]",
+      "width": 510,
+      "height": 400,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 0.4,
+              "right": 4.6,
+              "bottom": -11,
+              "top": 231,
+              "discrete_limits": {
+                "x": [
+                  "Brown",
+                  "Blue",
+                  "Hazel",
+                  "Green"
+                ]
+              }
+            },
+            "mapping": {
+              "x": "get(attribute)",
+              "y": "Freq"
+            },
+            "range": {
+              "left": 39.150677254902,
+              "right": 504.520449019608,
+              "bottom": 365.849223606164,
+              "top": 24.958897869863
+            }
+          }
+        ],
+        "dims": {
+          "width": 510,
+          "height": 400
+        }
+      }
+    }
+  },
+  "export": {
+
+  }
+}

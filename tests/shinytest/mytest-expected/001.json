@@ -1,0 +1,62 @@
+{
+  "input": {
+    "select1": "Hair",
+    "select2": "Division",
+    "select3": "Admission Status"
+  },
+  "output": {
+    "plot1": {
+      "src": "[image data sha1: 75e2863ff2cb6f2c381aa4822a3209a0c001fde1]",
+      "width": 510,
+      "height": 400,
+      "alt": "Plot object",
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": 0.4,
+              "right": 4.6,
+              "bottom": -14.3,
+              "top": 300.3,
+              "discrete_limits": {
+                "x": [
+                  "Black",
+                  "Brown",
+                  "Red",
+                  "Blond"
+                ]
+              }
+            },
+            "mapping": {
+              "x": "get(attribute)",
+              "y": "Freq"
+            },
+            "range": {
+              "left": 39.150677254902,
+              "right": 504.520449019608,
+              "bottom": 365.849223606164,
+              "top": 24.958897869863
+            }
+          }
+        ],
+        "dims": {
+          "width": 510,
+          "height": 400
+        }
+      }
+    }
+  },
+  "export": {
+
+  }
+}
